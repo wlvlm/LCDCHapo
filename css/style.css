@@ -200,4 +200,126 @@ hr.right.long{
 .container.beige{
     background: var(--clr1);
     height: 130vh;
+    position: relative;
+    display: flex;
+}
+
+div.background{
+    width: calc(1347.660px / 2);
+    height: 100%;
+    position: absolute;
+    opacity: .54;
+}
+
+div.background.behind1{
+    right: calc(1347.660px / 2);
+    background: url(../assets/axi-aimee-tgigiWtLgio-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+div.background.behind2{
+    right: 0;
+    background: url(../assets/soroush-alavi-PVvoEQH6cOI-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.triangle{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background: url(../assets/peyman-farmani-FktzAo4XHEs-unsplash.jpg);
+    height: 100%;
+    aspect-ratio: 1;
+    background-position: -16px -6px;
+    background-size: 1377px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+}
+
+.textWrapper{
+    width: 100%;
+    position: relative;
+}
+
+.text90{
+    rotate: -90deg;
+    color: var(--clr4);
+    text-transform: uppercase;
+    font-size: 107px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 622px;
+    left: -593px;
+}
+
+.collection p{
+    color: var(--clr4);
+    font-family: var(--font1);
+    font-size: 47px;
+    position: absolute;
+    text-align: center;
+    left: 675px;
+    top: 324px;
+}
+
+.collection p:nth-last-of-type(1){
+    top: 800px;
+    left: 650px;
+}
+
+.collection hr{
+    border: solid 3px var(--clr4);
+    rotate: 90deg;
+    width: 406px;
+    position: absolute;
+    left: 505px;
+    top: 586px;
+}
+
+.bulles{
+    height: 100%;
+    width: 768px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bulle{
+    border: solid 3px var(--clr4);
+    border-radius: 50vw;
+    width: 100px;
+    aspect-ratio: 1;
+    position: absolute;
+}
+
+.b1{
+    width: 137px;
+    top: -45px;
+    left: 663px;
+}
+
+.b2{
+    width: 150px;
+    top: 187px;
+    left: 587px;
+}
+
+.b3{
+    width: 109px;
+    left: 704px;
+    top: 220px;
+}
+
+.b4{
+    width: 498px;
+    left: -430px;
+    top: 221px;
+}
+
+.b5{
+    width: 324px;
+    bottom: -210px;
+    left: 490px;
 }
