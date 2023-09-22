@@ -126,6 +126,29 @@ nav, .nav{
     text-align: center;
 }
 
+hr{
+    border: 3px solid var(--clr1);
+    border-radius: 50vw;
+    width: 229px;
+    position: absolute;
+    top: 1080px;
+    left: 285px;
+}
+
+hr.long{
+    top: 1069px;
+    width: 440px;
+    left: calc(285px - 110px);
+}
+
+hr.right{
+    left: 1600px;
+}
+
+hr.right.long{
+    left: calc(1600px - 110px);
+}
+
 .container.red{
     height: calc(140vh - 145px);
     width: 100%;
@@ -134,14 +157,47 @@ nav, .nav{
 }
 
 .container.red .wrapper{
-    border: 1px solid blue;
     height: 100%;
     display: flex;
     gap: 187px;
+    justify-content: space-between;
 }
 
 .wrapper div{
-    width: 100%;
     height: 100%;
-    border: 1px solid green;
+}
+
+.text{
+    color: var(--clr1);
+    font-size: 48px;
+    font-family: var(--font1);
+    width: 615px!important;
+}
+
+.sectionTitle{
+    font-size: 52px!important;
+    font-family: var(--font2);
+}
+
+.imgContainer{
+    width: auto;
+}
+
+.imgContainer img{
+    width: 575px;
+    height: 862px;
+    float: right;
+}
+
+.imgContainer img.small{
+    width: 363px;
+    height: 545px;
+    position: absolute;
+    right: 613px;
+    top: 1478px;
+}
+
+.container.beige{
+    background: var(--clr1);
+    height: 130vh;
 }
